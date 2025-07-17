@@ -1,0 +1,27 @@
+{
+  "name": "hacktiv8-aiforitdev-session3-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "dotenvx run -- node ."
+  },
+  "keywords": [],
+  "author": "Hanif Dwy Putra S <hanifdwyputrasembiring@gmail.com>",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.9.0",
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^1.47.6"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@hono/node-server": "^1.16.0",
+    "@hono/zod-validator": "^0.7.1",
+    "consola": "^3.4.2",
+    "envalid": "^8.1.0",
+    "file-type": "^21.0.0",
+    "hono": "^4.8.5",
+    "zod": "^4.0.5"
+  },
+  "type": "module"
+}
